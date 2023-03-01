@@ -12,7 +12,7 @@ public:
 
 	virtual Ice & operator=(Ice const & src);
 	virtual Ice* clone() const;
-	// virtual void use(ICharacter& target);
+	virtual void use(ICharacter& target);
 };
 
 #endif

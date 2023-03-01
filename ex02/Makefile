@@ -6,11 +6,11 @@
 #    By: nseniak <nseniak@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/08 14:21:20 by nseniak           #+#    #+#              #
-#    Updated: 2023/03/01 14:50:28 by nseniak          ###   ########.fr        #
+#    Updated: 2023/02/27 16:50:53 by nseniak          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS		= main.cpp AMateria.cpp  Cure.cpp  Ice.cpp  Character.cpp MateriaSource.cpp
+SRCS		= Animal.cpp Cat.cpp Dog.cpp main.cpp WrongCat.cpp WrongAnimal.cpp Brain.cpp
 NAME		= Polymorphisme
 OBJS 		= $(SRCS:.cpp=.o)
 DEP			= $(OBJS:.o=.d)

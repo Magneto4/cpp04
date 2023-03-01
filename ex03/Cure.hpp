@@ -12,7 +12,7 @@ public:
 
 	virtual Cure & operator=(Cure const & src);
 	virtual Cure* clone() const;
-	// virtual void use(ICharacter& target);
+	virtual void use(ICharacter& target);
 };
 
 #endif

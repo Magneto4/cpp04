@@ -7,6 +7,9 @@
 
 int	main(void)
 {
+	// {
+	// 	Animal a;
+	// }
 	{
 		std::cout << "Test of cat assignment" << std::endl << std::endl;
 		const Cat* i = new Cat();
